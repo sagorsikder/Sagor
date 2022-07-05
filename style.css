@@ -1,0 +1,52 @@
+.ani{
+    width: 100px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    animation: sagor 5s ease 1s 3 alternate backwards;
+   
+   
+    \.. animation-name: sagor;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+    animation-fill-mode: backwards; ..\
+    
+}
+@keyframes sagor{
+    0%{
+    background-color:red;
+    top: 0;
+    left: 0;
+    }
+
+    20%{
+        background-color: yellow;
+        left: 300px;
+        top:0;
+    }
+   
+    40%{
+        background-color:green;
+        left: 300px;
+        top:100px;
+    }
+    60%{
+        background-color: lime;
+        left: 150px;
+        top:50px;
+    }
+    80%{
+        background-color: black;
+        left: 0px;
+        top:200px;
+    }
+    100%{
+        background-color: pink;
+        left: 0;
+        top:0;
+    }
+
+}
